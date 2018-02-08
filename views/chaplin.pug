@@ -1,0 +1,12 @@
+body
+  .wrap
+    .profile.hide
+      a(href='#').menu
+        span Movies
+    .information
+      .information__heading
+        span.information__heading__tag= tag
+      h1.information__name
+        small=firstName
+        | #{lastName}
+      p.information__description= content
