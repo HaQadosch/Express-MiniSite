@@ -22,6 +22,7 @@
   "homepage": "https://github.com/HaQadosch/Express-MiniSite#readme",
   "dependencies": {
     "express": "*.*",
+    "mongoose": "*.*",
     "pug": "*.*"
   }
 }

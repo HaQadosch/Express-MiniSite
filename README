@@ -1,5 +1,4 @@
 From https://dev.to/aurelkurtula/creating-a-basic-website-with-expressjs-j92
-https://dev.to/aurelkurtula/building-a-restful-api-with-express-and-mongodb--3mmh
 
 npm init
 npm install --save express pug
@@ -21,3 +20,5 @@ git push origin dev
 git checkout master
 git merge
 
+From https://dev.to/aurelkurtula/building-a-restful-api-with-express-and-mongodb--3mmh
+npm install --save express mongoose

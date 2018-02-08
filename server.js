@@ -1,4 +1,5 @@
-const {chaplin, marilyn} = require('./assets/stars')
+const bookRouter = require('./Routes/bookRouters')
+const { chaplin, marilyn } = require('./assets/stars')
 const express = require('express')
 
 const app = express()
@@ -16,6 +17,8 @@ app.get('/chaplin', sendChaplin)
 app.get('/charles', redirectChaplin)
 app.get('/marilyn', sendMarilyn)
 app.get('/jean', sendJean)
+
+app.use('/api/books', bookRouter)
 
 const port = process.env.port || 5656
 app.listen(port, _ => {
