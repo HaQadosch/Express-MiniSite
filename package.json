@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/HaQadosch/Express-MiniSite#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "*.*",
-    "mongoose": "*.*",
+    "mongoose": "^5.0.3",
     "pug": "*.*"
   }
 }
