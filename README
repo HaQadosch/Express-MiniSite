@@ -1,4 +1,8 @@
 From https://dev.to/aurelkurtula/creating-a-basic-website-with-expressjs-j92
+https://dev.to/aurelkurtula/building-a-restful-api-with-express-and-mongodb--3mmh
+
+npm init
+npm install --save express pug
 
 echo "# Express-MiniSite" >> README.md
 git init
@@ -6,4 +10,14 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/HaQadosch/Express-MiniSite.git
 git push -u origin master
+
+git branch dev
+git checkout dev
+>> work
+git add .
+git commit -m "blahblah"
+git push origin dev
+
+git checkout master
+git merge
 
