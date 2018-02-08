@@ -3,6 +3,7 @@ const express = require('express')
 
 const app = express()
 app.set('view engine', 'pug') // pug pages are expected to be in the folder 'views'
+app.use(express.static(`${__dirname}/public`)) // all the files will be stored in '/public'
 
 const sendHome = (req, res) => res.render('index') // views/index.pug
 const sendChaplin = (req, res) => res.render('chaplin', chaplin)
